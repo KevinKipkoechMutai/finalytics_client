@@ -6,6 +6,7 @@ import Row3 from "./Row3"
 
 
 
+
 const gridTemplateLargeScreens = `
   "a b c"
   "a b c"
@@ -73,6 +74,7 @@ const Dashboard = () => {
       <Row1 />
       <Row2 />
       <Row3 />
+      
     </Box>
   )
 }
