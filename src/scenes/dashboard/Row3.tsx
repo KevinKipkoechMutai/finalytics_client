@@ -7,9 +7,9 @@ import { DataGrid, GridCellParams } from "@mui/x-data-grid"
 import { useMemo } from "react"
 import { Cell, Pie, PieChart } from "recharts"
 
-type Props = {}
 
-const Row3 = (props: Props) => {
+
+const Row3 = () => {
   const { palette } = useTheme()
   const pieColors = [palette.primary[800], palette.primary[500]]
   const { data: kpiData } = useGetKpisQuery()

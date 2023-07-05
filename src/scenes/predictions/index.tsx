@@ -7,9 +7,9 @@ import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, XAxis, YAx
 import regression, { DataPoint } from 'regression'
 
 
-type Props = {}
 
-const Predictions = (props: Props) => {
+
+const Predictions = () => {
   const { palette } = useTheme()
   const [isPredictions, setIsPredictions] = useState(false)
   const { data: kpiData } = useGetKpisQuery()

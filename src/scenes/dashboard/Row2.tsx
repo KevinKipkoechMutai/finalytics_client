@@ -6,14 +6,14 @@ import { Box, Typography, useTheme } from "@mui/material"
 import { useMemo } from "react"
 import FlexBetween from "@/components/FlexBetween"
 
-type Props = {}
+
 
 const pieData = [
   { name: "Group A", value: 600 },
   { name: "Group B", value: 400 }
 ]
 
-const Row2 = (props: Props) => {
+const Row2 = () => {
   const { palette } = useTheme()
   const { data: operationalData } = useGetKpisQuery()
   const { data: productData } = useGetProductsQuery()
